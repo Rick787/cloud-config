@@ -1,0 +1,14 @@
+server:
+  port: 8881
+
+spring:
+  cloud:
+    config:
+      label: master
+      uri: http://localhost:8888/
+      profile: dev
+  application:
+    name: config-client
+
+
+
